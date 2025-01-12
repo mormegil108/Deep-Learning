@@ -1,0 +1,5 @@
+Model,Sequence Length,Number of Hidden Units,Word Embeddings,IsEmbeddingsTrainable,Test Loss,Test Accuracy
+LSTM (pre-trained),30,30,pre-trained,No,1.7372087240219116,0.4863250255584717
+SimpleRNN,30,30,pre-trained,No,2.517688274383545,0.23499734699726105
+LSTM (random),30,30,random,Yes,3.409200668334961,0.4855284094810486
+LSTM (adjusted),120,90,pre-trained,Yes,1.4497767686843872,0.7501327395439148
